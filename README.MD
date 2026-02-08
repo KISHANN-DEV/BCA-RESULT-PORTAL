@@ -36,5 +36,40 @@ This project is created for **educational and demonstration purposes only**.
 ---
 
 ## 📂 Project Structure
+BCA-RESULT-PORTAL/
+│
+├── index.html
+├── style.css
+├── script.js
+├── images/
+└── README.md
 
-GIT 
+
+---
+
+## 🧠 How It Works
+
+1. User must complete the **verification popup**
+2. Invalid inputs block access to the site
+3. On successful verification → portal unlocks
+4. User can search student names in result table
+
+---
+
+## ⚠️ Disclaimer
+
+This project is **not an official university website**.  
+It is created **only for learning, practice, and portfolio purposes**.
+
+---
+
+## 👨‍💻 Author
+
+**Kishan Singh**  
+BCA Student | Frontend Developer  
+
+GitHub: https://github.com/KISHANN-DEV
+
+---
+
+⭐ If you like this project, don’t forget to star the repository!
