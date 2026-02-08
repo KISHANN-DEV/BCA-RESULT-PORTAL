@@ -302,3 +302,99 @@ tbody tr:hover {
   transform: translateY(-3px);
   box-shadow: 0 14px 35px rgba(37,99,235,0.5);
 }
+
+/* =====================================================
+   UNIVERSAL RESPONSIVE FIX (ALL DEVICES)
+   ===================================================== */
+
+/* Prevent sideways scrolling on all screens */
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* -------- HEADER FIX -------- */
+.cdlu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.logo-left,
+.logo-right {
+  max-width: 80px;
+  height: auto;
+}
+
+.title {
+  max-width: 100%;
+  margin: 6px 0;
+}
+
+.hindi {
+  font-size: clamp(16px, 4vw, 20px);
+}
+
+.english {
+  font-size: clamp(14px, 3.5vw, 18px);
+}
+
+.act {
+  font-size: clamp(11px, 3vw, 13px);
+}
+
+/* -------- NAVBAR FIX -------- */
+.main-nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 10px;
+}
+
+/* -------- HERO FIX -------- */
+.hero {
+  padding: clamp(30px, 6vw, 80px) 12px;
+}
+
+.hero-card {
+  width: 100%;
+  max-width: 520px;
+  margin: auto;
+}
+
+/* -------- BADGE FIX -------- */
+.result-highlight {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.result-highlight span {
+  font-size: clamp(12px, 3.5vw, 14px);
+}
+
+/* -------- SEARCH INPUT -------- */
+#searchInput {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* -------- TABLE FIX -------- */
+.table-section {
+  padding: clamp(20px, 5vw, 50px) 10px;
+}
+
+/* Horizontal scroll only for table on small screens */
+@media (max-width: 900px) {
+  .table-section {
+    overflow-x: auto;
+  }
+
+  table {
+    min-width: 650px;
+  }
+}
